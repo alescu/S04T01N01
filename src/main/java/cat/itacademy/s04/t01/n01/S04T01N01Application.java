@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t01.n01.S04T01N01;
+package cat.itacademy.s04.t01.n01;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

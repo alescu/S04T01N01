@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t01.n01.S04T01N01.controller;
+package cat.itacademy.s04.t01.n01.controller;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.http.ResponseEntity;
