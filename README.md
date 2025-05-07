@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# <u>Spring and Maven exercice</u>
+# <u>Basic Spring and Maven exercice</u>
 
 ## Table of Contents
 - [Description](#Description)

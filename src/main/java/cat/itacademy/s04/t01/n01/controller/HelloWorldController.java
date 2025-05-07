@@ -13,12 +13,12 @@ import org.springframework.http.HttpStatus;
 public class HelloWorldController {
 
     @GetMapping("/HelloWorld")
-    public static ResponseEntity<String> saluda(@RequestParam(value = "name", defaultValue = "UNKNOW") String name) {
+    public static ResponseEntity<String> greet(@RequestParam(value = "name", defaultValue = "UNKNOW") String name) {
         return ResponseEntity.status(HttpStatus.OK).body(String.format("Hello %s!", name));
     }
 
     @GetMapping("/HelloWorld2/{name}")
-    public static ResponseEntity<String> saluda2(@PathVariable(value = "name", required = false) String name) {
+    public static ResponseEntity<String> greet2(@PathVariable(value = "name", required = false) String name) {
         return ResponseEntity.status(HttpStatus.OK).body(String.format("Hello %s!", name));
     }
 

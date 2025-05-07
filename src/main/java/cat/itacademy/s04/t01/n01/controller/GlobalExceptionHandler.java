@@ -21,7 +21,7 @@ public class GlobalExceptionHandler {
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<String> manejarExcepcionGeneral(Exception ex) {
+    public ResponseEntity<String> handlerNoHandlerFoundException(Exception ex) {
         StringBuilder strb = new StringBuilder("LA RUTA SOL·LICITADA NO EXISTEIX");
         strb.append("<p>Opcions vàlides son: </p>");
         strb.append("<p> - http://localhost:9000/HelloWorld</p>");
